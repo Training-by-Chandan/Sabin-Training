@@ -2,7 +2,7 @@
 
 namespace Sabin.ConsoleApp
 {
-    internal class Program
+    public class Program
     {
         private static void Main(string[] args)
         {
@@ -17,13 +17,77 @@ namespace Sabin.ConsoleApp
 
                 //CheckEvenOrOdd();
 
-                ControlStatmentExample();
+                //ControlStatmentExample();
+
+                //ClassAndObjectExample();
+
+                //StudentMarksExample();
 
                 Console.WriteLine("Do you want to continue more(Y/N)?");
                 res = Console.ReadLine();
             } while (res.ToLower() == "y");
 
             Console.ReadLine();
+        }
+
+        private static void StudentMarksExample()
+        {
+            StudentsMarks s1 = new StudentsMarks();
+            Console.WriteLine("Enter Name of Student");
+            s1.Name = Console.ReadLine();
+            Console.WriteLine("Enter Marks in Math");
+            s1.Math = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter marks in Science");
+            s1.Science = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("\n\n\n");
+
+            Console.WriteLine("Name => " + s1.Name);
+            Console.WriteLine("Math => " + s1.Math);
+            Console.WriteLine("Science => " + s1.Science);
+            Console.WriteLine("------------------------------------");
+            Console.WriteLine("Toal => " + s1.Total);
+            Console.WriteLine("Percentage => " + s1.Percentage);
+            Console.WriteLine("Division => " + s1.Division);
+            Console.WriteLine("=======================================");
+
+            s1.Math = 100;
+            s1.Science = 0;
+            Console.WriteLine("After changeing the marks of math and science");
+            Console.WriteLine("------------------------------------");
+            Console.WriteLine("Toal => " + s1.Total);
+            Console.WriteLine("Percentage => " + s1.Percentage);
+            Console.WriteLine("Division => " + s1.Division);
+            Console.WriteLine("=======================================");
+        }
+
+        private static void ClassAndObjectExample()
+        {
+            var i = 10;
+            var h1 = new Human();
+            var h2 = new Human();
+            Human h3 = new Human();
+
+            h1.FName = "Sabin";
+            h1.Names = "Some name";
+            h2.FName = "Chandan";
+            h3.FName = "Ram";
+
+            h1.GetInfo();
+            h3.GetInfo();
+
+            h3.LooseEyes();
+            h3.LooseEyes();
+            h3.LooseEyes();
+
+            h1.GetInfo();
+            h2.GetInfo();
+            h2.GetInfo();
+            h3.GetInfo();
+
+            h1.FullName = "Some Name";
+            var fname = h1.FullName;
+            var full = h1.Full_Name;
         }
 
         private static void ControlStatmentExample()
