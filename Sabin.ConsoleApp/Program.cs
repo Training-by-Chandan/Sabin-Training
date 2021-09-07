@@ -8,6 +8,7 @@ namespace Test
     {
         private static void Testing()
         {
+            Console.WriteLine();
         }
     }
 
