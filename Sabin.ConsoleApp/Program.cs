@@ -1,5 +1,12 @@
 ﻿using System;
 
+namespace Test
+{
+    internal class MyClass
+    {
+    }
+}
+
 namespace Sabin.ConsoleApp
 {
     public class Program
