@@ -23,16 +23,6 @@ namespace Test
     }
 }
 
-namespace Test
-{
-    internal class MyClass
-    {
-        private static void Testing()
-        {
-        }
-    }
-}
-
 namespace Sabin.ConsoleApp
 {
     public class Program
