@@ -13,6 +13,10 @@ namespace Test
 
     internal class MyClass2
     {
+        private class TestClass
+        {
+        }
+
         private static void Testing()
         {
         }
