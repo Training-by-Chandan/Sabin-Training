@@ -10,6 +10,27 @@ namespace Test
         {
         }
     }
+
+    internal class MyClass2
+    {
+        private class TestClass
+        {
+        }
+
+        private static void Testing()
+        {
+        }
+    }
+}
+
+namespace Test
+{
+    internal class MyClass
+    {
+        private static void Testing()
+        {
+        }
+    }
 }
 
 namespace Sabin.ConsoleApp
@@ -318,15 +339,7 @@ namespace Sabin.ConsoleApp
 
         private static void Test()
         {
-            char ch = 'C';
-            string s = "this is me";
-            int i = 1;
-            decimal d = 1.2m;
-            double dbl = 1.2d;
-            float f = 1.2f;
-            bool b = false;
-
-            Console.WriteLine("I am from Test Function");
+            Console.WriteLine("Hello World!");
         }
     }
 }
