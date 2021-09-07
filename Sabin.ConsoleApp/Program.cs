@@ -1,28 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
+using Class.Lib1;
 using System.Collections;
-
-namespace Test
-{
-    internal class MyClass
-    {
-        private static void Testing()
-        {
-            Console.WriteLine();
-        }
-    }
-
-    internal class MyClass2
-    {
-        private class TestClass
-        {
-        }
-
-        private static void Testing()
-        {
-        }
-    }
-}
 
 namespace Sabin.ConsoleApp
 {
@@ -39,6 +17,8 @@ namespace Sabin.ConsoleApp
 
                 //LoopingStatementExamples();
 
+                Loopv2();
+
                 //CheckEvenOrOdd();
 
                 //ControlStatmentExample();
@@ -46,12 +26,41 @@ namespace Sabin.ConsoleApp
                 //ClassAndObjectExample();
 
                 //StudentMarksExample();
+                Science s1 = new Science();
 
                 Console.WriteLine("Do you want to continue more(Y/N)?");
                 res = Console.ReadLine();
             } while (res.ToLower() == "y");
 
             Console.ReadLine();
+        }
+
+        private static void Loopv2()
+        {
+            Console.WriteLine("From do-While loop");
+            int i = 1;
+            do
+            {
+                Console.WriteLine(i);
+                i++;
+            } while (i <= 5);
+            Console.WriteLine();
+
+            Console.WriteLine("From While loop");
+            i = 1;
+            while (i <= 5)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
+            Console.WriteLine();
+
+            Console.WriteLine("using for loop");
+            for (int j = 1; j <= 5; j++)
+            {
+                Console.WriteLine(j);
+            }
+            Console.WriteLine();
         }
 
         private static void StudentMarksExample()
