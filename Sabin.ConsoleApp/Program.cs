@@ -6,6 +6,9 @@ namespace Test
 {
     internal class MyClass
     {
+        private static void Testing()
+        {
+        }
     }
 }
 
