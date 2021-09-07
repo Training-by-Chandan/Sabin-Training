@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using System.Collections;
 
+namespace Test
+{
+    internal class MyClass
+    {
+    }
+}
+
 namespace Sabin.ConsoleApp
 {
     internal class Program
