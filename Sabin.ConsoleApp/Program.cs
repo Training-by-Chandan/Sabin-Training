@@ -10,6 +10,10 @@ namespace Test
         {
         }
     }
+
+    internal class MyClass2
+    {
+    }
 }
 
 namespace Sabin.ConsoleApp
