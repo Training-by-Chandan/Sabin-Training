@@ -5,10 +5,6 @@ VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sabin.ConsoleApp", "Sabin.ConsoleApp\Sabin.ConsoleApp.csproj", "{A1120277-8166-4D5B-9B1F-0A72E6FBBA30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class.Lib1", "Class.Lib1\Class.Lib1.csproj", "{1783598E-A82A-47BF-9234-C06ACD31297C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class.Lib2", "Class.Lib2\Class.Lib2.csproj", "{1B3D6BA6-E5F1-4112-A823-8F6D600FB160}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,14 +15,6 @@ Global
 		{A1120277-8166-4D5B-9B1F-0A72E6FBBA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1120277-8166-4D5B-9B1F-0A72E6FBBA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1120277-8166-4D5B-9B1F-0A72E6FBBA30}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1783598E-A82A-47BF-9234-C06ACD31297C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1783598E-A82A-47BF-9234-C06ACD31297C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1783598E-A82A-47BF-9234-C06ACD31297C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1783598E-A82A-47BF-9234-C06ACD31297C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1B3D6BA6-E5F1-4112-A823-8F6D600FB160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1B3D6BA6-E5F1-4112-A823-8F6D600FB160}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1B3D6BA6-E5F1-4112-A823-8F6D600FB160}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1B3D6BA6-E5F1-4112-A823-8F6D600FB160}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
