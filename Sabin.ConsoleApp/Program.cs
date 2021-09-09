@@ -12,12 +12,34 @@ namespace Sabin.ConsoleApp
             {
                 //StringConcatenationExample();
 
-                ClassExample();
+                //ClassExample();
+
+                ClassExampleV2();
 
                 Console.WriteLine("Want to continue more (y/n)?");
                 res = Console.ReadLine();
             } while (res.ToLower() == "y");
             Console.ReadLine();
+        }
+
+        private static void ClassExampleV2()
+        {
+            StudentMarks sabin = new StudentMarks();
+            StudentMarks sm = new StudentMarks("Chandan", "Gupta");
+
+            sabin.FirstName = " ";//set
+            sabin.LastName = "";//set
+            var name = sabin.FirstName;
+
+            Console.WriteLine($"Full Name  => {sabin.FullName}");
+            Console.WriteLine($"Initials  => {sabin.Initials}");
+
+            StudentAlternative sabin1 = new StudentAlternative();
+            sabin1.FirstName = "Sabin";//set
+            sabin1.LastName = "Bhusal";//set
+
+            Console.WriteLine($"Full Name  => {sabin1.FullName}");
+            Console.WriteLine($"Initials  => {sabin1.Initials}");
         }
 
         private static void ClassExample()
